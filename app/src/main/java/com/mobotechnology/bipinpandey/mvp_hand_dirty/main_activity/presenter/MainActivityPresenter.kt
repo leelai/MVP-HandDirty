@@ -12,11 +12,7 @@ import com.mobotechnology.bipinpandey.mvp_hand_dirty.main_activity.model.User
 
 class MainActivityPresenter(private val view: View) {
 
-    private val user: User
-
-    init {
-        this.user = User()
-    }
+    private val user = User()
 
     fun updateFullName(fullName: String) {
         user.fullName = fullName

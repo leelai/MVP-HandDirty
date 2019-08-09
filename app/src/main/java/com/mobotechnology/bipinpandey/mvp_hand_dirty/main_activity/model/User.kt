@@ -9,7 +9,7 @@ class User {
     var fullName = ""
     var email = ""
 
-    constructor() {}
+    constructor()
 
     constructor(fullName: String, email: String) {
         this.fullName = fullName
